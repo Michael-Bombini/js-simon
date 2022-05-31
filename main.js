@@ -9,7 +9,7 @@ Dopo che sono stati inseriti i 5 numeri, il software dice quanti e quali dei num
 */
 
 const container = document.querySelector(".container");
-
+const timer = document.getElementById("timer");
 
 //variabili globali
 const numeriGenerati = [];
@@ -68,6 +68,12 @@ function risultato(){
         }
 }
 
+setInterval(function (){
+
+if(timer.innerText>0)
+timer.innerText--;   
+
+}, 1000);
 
 
 
