@@ -31,8 +31,16 @@ function generaRandom(){
 
 }
 
+const nascondi = setTimeout(nascodiNum , 30000)
+function nascodiNum(){
+    container.innerHTML = "";
+}
 
-const chiedi =  setTimeout(chiediNumeri,3000) 
+
+
+
+
+const chiedi =  setTimeout(chiediNumeri,30100) 
 function chiediNumeri(){
 
 
